@@ -77,15 +77,43 @@
     width: 100%;
     max-width: 1200px;
 }
+.section-cafe--reverse .section-cafe__container{
+    flex-direction: row-reverse;
+}
 .section-cafe__content{
     flex: 1;
 }
 
 .section-cafe__title{
     font-size: var(--font-size-xl);
-    color: var(--color-text-title);
+    color: var(--color-primary);
     margin-bottom: 15px;
 
+}
+.section-cafe__text{
+    color: var(--color-text-muted);
+    margin-bottom: 15px;
+    font-size: var(--font-size-base);
+}
+
+.card-image{
+    background-color: var(--color-bg-card);
+    padding: 12px;
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-card);
+    border: 1px solid var(--color-border);
+    transition: var(--transition);
+}
+
+.card-image:hover{
+    transform: translateY(-6px);
+    box-shadow: var(--shadow-hover);
+}
+
+.card-image__img{
+    width: 100%;
+    border-radius: var(--radius-sm);
+    object-fit: cover;
 }
 
 
