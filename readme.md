@@ -53,7 +53,7 @@ Como este é um projeto estático (HTML e CSS), você não precisa instalar nenh
 
 Clone o repositório:
 
-git clone https://github.com//seu-repositorio.git
+git clone https://github.com//https://github.com/joaopneto310/GraoeArte.git
 
 
 Abra o arquivo no navegador:
