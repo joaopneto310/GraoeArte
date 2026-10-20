@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wdth,wght@0,18..144,87..112,300..900;1,18..144,87..112,300..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 @import './design-system.css';
 @import './reset.css';
 
+
 .body{
     padding-top: var(--header-height,80px);
+    
 }
 .header{
     position: fixed;
@@ -63,6 +66,9 @@
     box-shadow: 0 4px 12px rgba(120, 53, 15, 0.12) ;
 }
 
+.main{
+    background-color: var(--color-bg-main);
+}
 .section-cafe{
     display: flex;
     align-items: center;
@@ -71,6 +77,7 @@
     padding: 60px 5%;
     border-bottom: 1px solid var(--color-border);
     scroll-margin-top: var(--header-height, 80px);
+    background-color: var(--color-bg-main);
 }
 
 .section-cafe__container{
@@ -129,7 +136,121 @@
 }
 
 
+.section-cafe__container_2{
+   
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 60px 5%;
+    border-bottom: 1px solid var(--color-border);
+    scroll-margin-top: var(--header-height, 80px)
+}
 
+
+.section-cafe__title{
+    display: block;
+    font-size: var(--font-size-xl, --font-title);
+    line-height: 1.3;
+    color: var(--color-text-title);
+    font-weight: 600;
+    margin-bottom: 20px;
+    width: 600px;
+
+}
+
+.section-cafe__container_coluna{
+    display: flex;
+
+}
+
+ .card-produto__image-container{
+    width: 400%;
+    height: 300px;
+    margin-top: 1.5rem;
+    padding: 1rem;
+    border-radius: var(--radius-md);
+    background-color: azure; 
+}
+.card-produto__image{
+    width: 300%;
+    height: 250px;
+    border-radius: 8px;
+    object-fit: cover;
+    
+}
+
+
+
+
+
+
+
+
+
+.processo_container_title{
+    display: block;
+    font-size: var(--font-size-lg, --font-title);
+    line-height: 1.2;
+    color: var(--color-text-title);
+    font-weight: 600;
+    margin-bottom: 20px;
+    width: 900px;
+    gap: 5
+}
+.processo_container_texto{
+    font-size: var(--font-size-sm,--color-text-muted);
+    line-height: 1.6;
+    margin-bottom: 15px;
+    background-color: var(--color-bg-card);
+    border: 1px dotted #a0a0a0;
+    border-radius: 12px ;
+    width: 900px;
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.faq{
+    height: var(--section-height);
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5%;
+    scroll-margin-top: var(--header-height);
+}
 
 
 
